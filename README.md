@@ -24,17 +24,6 @@ The result is a side-by-side video stream: original webcam feed on the left, sty
 - **PIL**
 - **Matplotlib**
 
----
-
-## 📂 Project Structure
-├── saved_models/ # Pre-trained style models (.pth)
-│ ├── mosaic.pth
-│ ├── candy.pth
-│ ├── rain_princess.pth
-│ └── udnie.pth
-├── Webcam-Style_Transfer.py # Main script (contains model + webcam loop)
-├── README.md # Project documentation
-
 
 ---
 
