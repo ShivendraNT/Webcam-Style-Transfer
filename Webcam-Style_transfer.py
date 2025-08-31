@@ -217,13 +217,6 @@ def total_variation_loss(img, tv_weight=1e-4):
 
 
 
-
-
-
-
-
-
-
 def optimize_step(model,generated,optimizer,content_loss,style_loss,
                   content_weight=1.0,style_weight=1e3,tv_weight=1e-4):
     optimizer.zero_grad(set_to_none=True)
